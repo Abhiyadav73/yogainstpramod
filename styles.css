@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+.height {
+	min-height: 50rem;
+}
+.center {
+	padding-top: 70px;
+}
+
+.decor {
+	text-decoration: none;
+	color: #fff;
+}
+
+.gradient_bg {
+	background: linear-gradient(-45deg, #5a5656, grey, #d46b6b);
+	background-size: 400% 400%;
+	color: aliceblue;
+	animation: gradient 15s ease infinite;
+}
+
+.footer-hov {
+	font-size: large;
+}
+
+.footer-hov:hover {
+	color: #e44e4e;
+	text-shadow: 1px 1px #e9c89d;
+}
+.heading-font{
+	color:#3f2305;
+	text-shadow: -2px 1px 3px #3f2309;
+}
+.undl{
+	text-decoration: underline;
+	color:#3f2305
+}
+
+.font-tektur {
+	font-family: 'Tektur', sans-serif;
+}
+.font-am{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.font-mon{
+	font-family: 'Cutive Mono', monospace;
+	font-size: larger;
+}
+.font-rs{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.para-txt{
+	color:wheat;
+}
+.bg-lm{
+	background:linear-gradient( to right,#e6aa3c, #5a5656)
+}
+.parent-bg{
+	background-color: #FFDD95;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
